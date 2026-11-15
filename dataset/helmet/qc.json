@@ -1,0 +1,62 @@
+{
+  "source_images": 2384,
+  "unique_source_frames": 1848,
+  "images_in_dataset": 1723,
+  "augmented_copies_removed": 536,
+  "cross_split_duplicates_removed": 125,
+  "split_stats": {
+    "train": {
+      "images": 1323,
+      "with_work_cap": 557,
+      "without_work_cap": 725,
+      "empty": 41
+    },
+    "val": {
+      "images": 191,
+      "with_work_cap": 92,
+      "without_work_cap": 92,
+      "empty": 7
+    },
+    "test": {
+      "images": 209,
+      "with_work_cap": 91,
+      "without_work_cap": 98,
+      "empty": 20
+    }
+  },
+  "cross_split_similarity": {
+    "train-val": {
+      "pairs": 118231,
+      "median_ncc": 0.5183,
+      "p99_ncc": 0.9343,
+      "max_ncc": 0.9995,
+      "share_ncc_ge_0.99": 0.0001
+    },
+    "train-test": {
+      "pairs": 122557,
+      "median_ncc": 0.4101,
+      "p99_ncc": 0.9268,
+      "max_ncc": 0.9998,
+      "share_ncc_ge_0.99": 0.0001
+    },
+    "val-test": {
+      "pairs": 17528,
+      "median_ncc": 0.4505,
+      "p99_ncc": 0.9475,
+      "max_ncc": 0.999,
+      "share_ncc_ge_0.99": 0.0001
+    }
+  },
+  "duplicate_ncc_threshold": 0.9,
+  "box_tolerance": 0.02,
+  "ratio": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "seed": 42,
+  "class_names": [
+    "with_work_cap",
+    "without_work_cap"
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "metrics": [
+    {
+      "run": "baseline",
+      "split": "val",
+      "class": "with_work_cap",
+      "images": 191,
+      "instances": 92,
+      "precision": 0.9976,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.964
+    },
+    {
+      "run": "baseline",
+      "split": "val",
+      "class": "without_work_cap",
+      "images": 191,
+      "instances": 92,
+      "precision": 1.0,
+      "recall": 0.9862,
+      "mAP50": 0.9948,
+      "mAP50-95": 0.8891
+    },
+    {
+      "run": "baseline",
+      "split": "val",
+      "class": "all",
+      "images": 191,
+      "instances": 184,
+      "precision": 0.9988,
+      "recall": 0.9931,
+      "mAP50": 0.9949,
+      "mAP50-95": 0.9266
+    },
+    {
+      "run": "baseline",
+      "split": "test",
+      "class": "with_work_cap",
+      "images": 209,
+      "instances": 91,
+      "precision": 0.9558,
+      "recall": 0.989,
+      "mAP50": 0.9934,
+      "mAP50-95": 0.9277
+    },
+    {
+      "run": "baseline",
+      "split": "test",
+      "class": "without_work_cap",
+      "images": 209,
+      "instances": 98,
+      "precision": 0.9134,
+      "recall": 0.9687,
+      "mAP50": 0.9524,
+      "mAP50-95": 0.6791
+    },
+    {
+      "run": "baseline",
+      "split": "test",
+      "class": "all",
+      "images": 209,
+      "instances": 189,
+      "precision": 0.9346,
+      "recall": 0.9788,
+      "mAP50": 0.9729,
+      "mAP50-95": 0.8034
+    },
+    {
+      "run": "strongaug",
+      "split": "val",
+      "class": "with_work_cap",
+      "images": 191,
+      "instances": 92,
+      "precision": 0.994,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.9481
+    },
+    {
+      "run": "strongaug",
+      "split": "val",
+      "class": "without_work_cap",
+      "images": 191,
+      "instances": 92,
+      "precision": 0.9864,
+      "recall": 1.0,
+      "mAP50": 0.9948,
+      "mAP50-95": 0.8409
+    },
+    {
+      "run": "strongaug",
+      "split": "val",
+      "class": "all",
+      "images": 191,
+      "instances": 184,
+      "precision": 0.9902,
+      "recall": 1.0,
+      "mAP50": 0.9949,
+      "mAP50-95": 0.8945
+    },
+    {
+      "run": "strongaug",
+      "split": "test",
+      "class": "with_work_cap",
+      "images": 209,
+      "instances": 91,
+      "precision": 0.9891,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.9048
+    },
+    {
+      "run": "strongaug",
+      "split": "test",
+      "class": "without_work_cap",
+      "images": 209,
+      "instances": 98,
+      "precision": 0.9193,
+      "recall": 0.9388,
+      "mAP50": 0.9476,
+      "mAP50-95": 0.6731
+    },
+    {
+      "run": "strongaug",
+      "split": "test",
+      "class": "all",
+      "images": 209,
+      "instances": 189,
+      "precision": 0.9542,
+      "recall": 0.9694,
+      "mAP50": 0.9713,
+      "mAP50-95": 0.7889
+    }
+  ],
+  "thresholds": [
+    {
+      "run": "baseline",
+      "split": "val",
+      "conf": 0.25,
+      "precision": 0.9817,
+      "recall": 1.0,
+      "f1": 0.9907
+    },
+    {
+      "run": "baseline",
+      "split": "val",
+      "conf": 0.4,
+      "precision": 0.985,
+      "recall": 1.0,
+      "f1": 0.9924
+    },
+    {
+      "run": "baseline",
+      "split": "val",
+      "conf": 0.5,
+      "precision": 0.9867,
+      "recall": 0.9972,
+      "f1": 0.9919
+    },
+    {
+      "run": "baseline",
+      "split": "val",
+      "conf": 0.6,
+      "precision": 0.9901,
+      "recall": 0.9946,
+      "f1": 0.9923
+    },
+    {
+      "run": "baseline",
+      "split": "test",
+      "conf": 0.25,
+      "precision": 0.8959,
+      "recall": 0.9836,
+      "f1": 0.9376
+    },
+    {
+      "run": "baseline",
+      "split": "test",
+      "conf": 0.4,
+      "precision": 0.9138,
+      "recall": 0.9796,
+      "f1": 0.9455
+    },
+    {
+      "run": "baseline",
+      "split": "test",
+      "conf": 0.5,
+      "precision": 0.9263,
+      "recall": 0.9792,
+      "f1": 0.952
+    },
+    {
+      "run": "baseline",
+      "split": "test",
+      "conf": 0.6,
+      "precision": 0.9343,
+      "recall": 0.9792,
+      "f1": 0.9562
+    },
+    {
+      "run": "strongaug",
+      "split": "val",
+      "conf": 0.25,
+      "precision": 0.9811,
+      "recall": 1.0,
+      "f1": 0.9904
+    },
+    {
+      "run": "strongaug",
+      "split": "val",
+      "conf": 0.4,
+      "precision": 0.9873,
+      "recall": 1.0,
+      "f1": 0.9936
+    },
+    {
+      "run": "strongaug",
+      "split": "val",
+      "conf": 0.5,
+      "precision": 0.9909,
+      "recall": 1.0,
+      "f1": 0.9954
+    },
+    {
+      "run": "strongaug",
+      "split": "val",
+      "conf": 0.6,
+      "precision": 0.9932,
+      "recall": 0.9891,
+      "f1": 0.9911
+    },
+    {
+      "run": "strongaug",
+      "split": "test",
+      "conf": 0.25,
+      "precision": 0.9173,
+      "recall": 0.9694,
+      "f1": 0.9424
+    },
+    {
+      "run": "strongaug",
+      "split": "test",
+      "conf": 0.4,
+      "precision": 0.944,
+      "recall": 0.9694,
+      "f1": 0.9565
+    },
+    {
+      "run": "strongaug",
+      "split": "test",
+      "conf": 0.5,
+      "precision": 0.9506,
+      "recall": 0.9694,
+      "f1": 0.9599
+    },
+    {
+      "run": "strongaug",
+      "split": "test",
+      "conf": 0.6,
+      "precision": 0.9614,
+      "recall": 0.9592,
+      "f1": 0.9603
+    }
+  ],
+  "speeds": {
+    "baseline": {
+      "val": {
+        "preprocess_ms": 1.44,
+        "inference_ms": 4.42,
+        "postprocess_ms": 5.12,
+        "fps": 226.0,
+        "val_seconds": 22.8
+      },
+      "test": {
+        "preprocess_ms": 1.32,
+        "inference_ms": 3.87,
+        "postprocess_ms": 4.39,
+        "fps": 258.4,
+        "val_seconds": 18.4
+      }
+    },
+    "strongaug": {
+      "val": {
+        "preprocess_ms": 0.96,
+        "inference_ms": 2.52,
+        "postprocess_ms": 2.65,
+        "fps": 397.0,
+        "val_seconds": 13.3
+      },
+      "test": {
+        "preprocess_ms": 0.93,
+        "inference_ms": 2.84,
+        "postprocess_ms": 2.67,
+        "fps": 351.8,
+        "val_seconds": 13.2
+      }
+    }
+  }
+}

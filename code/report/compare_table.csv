@@ -1,0 +1,5 @@
+run,augmentation,model,epochs,imgsz,batch,split,precision,recall,mAP50,mAP50-95,params,gflops,train_min,inference_ms,fps
+baseline,default,yolo11n.pt,100,640,16,val,0.9988,0.9931,0.9949,0.9266,2590230,6.5,24.2,4.42,226.0
+baseline,default,yolo11n.pt,100,640,16,test,0.9346,0.9788,0.9729,0.8034,2590230,6.5,24.2,3.87,258.4
+strongaug,strong,yolo11n.pt,100,640,16,val,0.9902,1.0,0.9949,0.8945,2590230,6.5,29.1,2.52,397.0
+strongaug,strong,yolo11n.pt,100,640,16,test,0.9542,0.9694,0.9713,0.7889,2590230,6.5,29.1,2.84,351.8

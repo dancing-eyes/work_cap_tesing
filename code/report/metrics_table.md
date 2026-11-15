@@ -1,0 +1,14 @@
+| run | split | class | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
+|---|---|---|---|---|---|---|
+| baseline | val | with_work_cap | 0.9976 | 1.0 | 0.995 | 0.964 |
+| baseline | val | without_work_cap | 1.0 | 0.9862 | 0.9948 | 0.8891 |
+| baseline | val | all | 0.9988 | 0.9931 | 0.9949 | 0.9266 |
+| baseline | test | with_work_cap | 0.9558 | 0.989 | 0.9934 | 0.9277 |
+| baseline | test | without_work_cap | 0.9134 | 0.9687 | 0.9524 | 0.6791 |
+| baseline | test | all | 0.9346 | 0.9788 | 0.9729 | 0.8034 |
+| strongaug | val | with_work_cap | 0.994 | 1.0 | 0.995 | 0.9481 |
+| strongaug | val | without_work_cap | 0.9864 | 1.0 | 0.9948 | 0.8409 |
+| strongaug | val | all | 0.9902 | 1.0 | 0.9949 | 0.8945 |
+| strongaug | test | with_work_cap | 0.9891 | 1.0 | 0.995 | 0.9048 |
+| strongaug | test | without_work_cap | 0.9193 | 0.9388 | 0.9476 | 0.6731 |
+| strongaug | test | all | 0.9542 | 0.9694 | 0.9713 | 0.7889 |

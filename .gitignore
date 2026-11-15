@@ -1,0 +1,75 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ========== Ultralytics / YOLO 训练产物 ==========
+# 训练与推理输出目录（根目录与 code/ 下都适用）
+runs/
+wandb/
+lightning_logs/
+
+# Ultralytics 自动生成的标签缓存
+*.cache
+
+# 模型权重与导出格式（二进制文件，建议用 Git LFS 或单独存放）
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+*.mlpackage
+*.npy
+
+# 如需把训练好的权重纳入版本库，取消下面一行的注释
+# !code/weights/*.pt
+
+# ========== 数据集与原始数据 ==========
+# 图片与标注数据量大，不入库；保留 dataset/helmet 下的 data.yaml、qc.json、split_manifest.csv 等元信息
+dataset/**/images/
+dataset/**/labels/
+data/
+
+# ========== 生成的产物 ==========
+code/outputs/
+*.avi
+*.mp4
+
+# ========== 日志与临时文件 ==========
+*.log
+*.tmp
+~$*
+.~lock.*
+
+# ========== 操作系统 / 编辑器 ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.idea/
+.vscode/

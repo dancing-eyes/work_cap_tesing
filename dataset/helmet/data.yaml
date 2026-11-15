@@ -1,0 +1,8 @@
+# work-cap wearing-state detection dataset (rebuilt)
+path: d:/hat/dataset/helmet
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2
+names: ['with_work_cap', 'without_work_cap']
